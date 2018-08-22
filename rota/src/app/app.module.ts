@@ -18,12 +18,14 @@ import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './app.routing.module';
 import { AlunosComponent } from './alunos/alunos.component';
 import { AlunosModule } from './alunos/alunos/alunos.module';
+import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    PaginaNaoEncontradaComponent
   ],
   imports: [
     BrowserModule,
