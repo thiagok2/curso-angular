@@ -1,0 +1,81 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/rota/dist
+/rota/tmp
+/rota/out-tsc
+
+# dependencies
+/rota/node_modules
+
+# IDEs and editors
+/rota/.idea
+/rota/.project
+/rota/.classpath
+/rota/.c9/
+/rota/*.launch
+/rota/.settings/
+/rota/*.sublime-workspace
+
+# IDE - VSCode
+/rota/.vscode/*
+/rota/!.vscode/settings.json
+/rota/!.vscode/tasks.json
+/rota/!.vscode/launch.json
+/rota/!.vscode/extensions.json
+
+# misc
+/rota/.sass-cache
+/rota/connect.lock
+/rota/coverage
+/rota/libpeerconnection.log
+/rota/npm-debug.log
+/rota/yarn-error.log
+/rota/testem.log
+/rota/typings
+
+# System Files
+/rota/.DS_Store
+/rota/Thumbs.db
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/diretivas-curso/dist
+/diretivas-curso/tmp
+/diretivas-curso/out-tsc
+
+# dependencies
+/diretivas-curso/node_modules
+
+# IDEs and editors
+/diretivas-curso/.idea
+/diretivas-curso/.project
+/diretivas-curso/.classpath
+/diretivas-curso/.c9/
+/diretivas-curso/*.launch
+/diretivas-curso/.settings/
+/diretivas-curso/*.sublime-workspace
+
+# IDE - VSCode
+/diretivas-curso/.vscode/*
+/diretivas-curso/!.vscode/settings.json
+/diretivas-curso/!.vscode/tasks.json
+/diretivas-curso/!.vscode/launch.json
+/diretivas-curso/!.vscode/extensions.json
+
+# misc
+/diretivas-curso/.sass-cache
+/diretivas-curso/connect.lock
+/diretivas-curso/coverage
+/diretivas-curso/libpeerconnection.log
+/diretivas-curso/npm-debug.log
+/diretivas-curso/yarn-error.log
+/diretivas-curso/testem.log
+/diretivas-curso/typings
+
+# System Files
+/diretivas-curso/.DS_Store
+/diretivas-curso/Thumbs.db
+

@@ -1,0 +1,10 @@
+  <ul>
+    <i class="fa" [class.fa-star-o]="meuFavorito" [class.fa-star]="!meuFavorito" (click)="onClick()"></i>
+    <i class="fa"
+    [ngClass]="{
+      'fa-star-o': !meuFavorito,
+      'fa-star': meuFavorito
+    }"
+    (click)="onClick()"
+    ></i>
+  </ul>

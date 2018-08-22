@@ -1,0 +1,11 @@
+<h5>ngIf</h5>
+
+<div *ngIf="cursos.length > 1">
+  cursos
+</div>
+
+<div [hidden]="mostrar">
+  Vou mostrar!
+</div>
+
+<button (click)="onMostrar()">Clique para testar hidden</button>
