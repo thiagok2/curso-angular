@@ -1,3 +1,5 @@
+import { FormsModule } from '@angular/forms';
+import { AuthService } from './login/auth.service';
 // import { CursosModule } from './cursos/cursos.module';
 import { CursosServiceService } from './cursos/cursos-service.service';
 // import { routing } from './app.routing';
@@ -22,12 +24,13 @@ import { AlunosModule } from './alunos/alunos/alunos.module';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     // CursosModule,
     AlunosModule,
     AppRoutingModule
     // routing
   ],
-  providers: [CursosServiceService],
+  providers: [CursosServiceService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
