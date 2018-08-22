@@ -1,5 +1,5 @@
 import { Subscription } from 'rxjs';
-import { AlunosService } from './../alunos.service';
+import { AlunosService } from '../alunos.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 

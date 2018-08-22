@@ -1,5 +1,5 @@
-import { AlunosService } from './../alunos.service';
-import { AlunosRoutingModule } from './../alunos.routing.module';
+import { AlunosService } from '../alunos.service';
+import { AlunosRoutingModule } from '../alunos.routing.module';
 import { AlunosComponent } from '../alunos.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';

@@ -1,3 +1,4 @@
+import { CursosGuard } from './guards/cursos-guard';
 import { AuthGuard } from './guards/auth-guard';
 import { HomeComponent } from './home/home.component';
 // import { CursoNaoencontradoComponent } from './cursos/curso-naoencontrado/curso-naoencontrado.component';
@@ -11,6 +12,7 @@ import { NgModule } from '@angular/core';
 const appRoutes: Routes = [
      { path: 'cursos', loadChildren: './cursos/cursos.module#CursosModule',
         canActivate: [AuthGuard],
+        canActivateChild: [CursosGuard],
         canLoad: [AuthGuard]},
     // { path: 'curso/:id', component: CursoDetalhesComponent },
     { path: 'login', component: LoginComponent },
