@@ -1,3 +1,4 @@
+import { AuthGuard } from './guards/auth-guard';
 import { HomeComponent } from './home/home.component';
 // import { CursoNaoencontradoComponent } from './cursos/curso-naoencontrado/curso-naoencontrado.component';
 import { LoginComponent } from './login/login.component';
@@ -8,11 +9,15 @@ import { NgModule } from '@angular/core';
 
 
 const appRoutes: Routes = [
-     { path: 'cursos', loadChildren: './cursos/cursos.module#CursosModule'},
+     { path: 'cursos', loadChildren: './cursos/cursos.module#CursosModule',
+        canActivate: [AuthGuard],
+        canLoad: [AuthGuard]},
     // { path: 'curso/:id', component: CursoDetalhesComponent },
     { path: 'login', component: LoginComponent },
     // { path: 'nao-encontrado', component: CursoNaoencontradoComponent },
-    { path: '', component: HomeComponent }
+    { path: '', component: HomeComponent ,
+        canActivate: [AuthGuard],
+        canLoad: [AuthGuard]}
 ];
 
 @NgModule({
